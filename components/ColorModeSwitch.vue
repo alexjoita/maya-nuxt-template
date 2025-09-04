@@ -16,11 +16,11 @@ const onClick = () =>
     <ColorScheme placeholder="...">
       <template v-if="colorMode.value === 'dark'">
         <SunIcon name="dark-mode" class="w-4 h-4" />
-        <span class="sr-only">Dark Mode</span>
+        <span class="sr-only">Mod Întunecat</span>
       </template>
       <template v-else>
         <MoonIcon name="light-mode" class="w-4 h-4" />
-        <span class="sr-only">Light Mode</span>
+        <span class="sr-only">Mod Luminos</span>
       </template>
     </ColorScheme>
   </button>

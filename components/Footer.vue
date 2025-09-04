@@ -3,7 +3,8 @@
     <div class="dark:text-zinc-500 pb-16 mt-16">
       <div class="text-center">
         <!-- copyright -->
-        <p class="text-sm">&copy; {{ new Date().getFullYear() }} <NuxtLink to="/" class="text-zinc-500 hover:text-zinc-400">Oscar Mattern</NuxtLink>, All rights reserved.</p>
+        <p class="text-sm">&copy; {{ new Date().getFullYear() }} Toate drepturile rezervate! <NuxtLink to="/" class="text-zinc-500 hover:text-zinc-200">photo.alexjoita.com</NuxtLink> </p>
+        <p class="text-sm">Vrei şi tu un astfel de site? <NuxtLink to="https://alexjoita.com" class="text-zinc-500 hover:text-zinc-200">Intră pe alexjoita.com</NuxtLink>. </p>
       </div>
     </div>
   </Container>
