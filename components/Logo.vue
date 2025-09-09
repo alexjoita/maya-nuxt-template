@@ -6,11 +6,11 @@
     <div class="rounded-full border-2 border-white dark:border-zinc-400 shadow-md group-hover:shadow-xl transition-shadow duration-100 shrink-0">
       <NuxtImg
         class="inline-block h-14 w-14 rounded-full"
-        src="/img/alexjoita.jpg"
+        src="/img/logo.png"
         alt="Alex Joita"
-        format="webp"
-        width="100"
-        height="100"
+        format="png"
+        width="200"
+        height="200"
       />
     </div>
     <span class="uppercase tracking-widest hidden md:inline-flex shrink-1 sr-only">Alex Joita</span>
