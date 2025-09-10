@@ -12,10 +12,22 @@
           </slot>
         </div>
         <ul class="mt-16 flex flex-col gap-4 lg:gap-12 lg:flex-row items-center justify-center max-w-2xl mx-auto">
+          
+          <!-- Phone number added below -->
+          <li>
+            <p class="text-sm">
+            <NuxtLink to="tel:+40765910830" class="flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100">
+              <Icon name="heroicons:phone-20-solid" size="1.8rem" />
+              <span>Apel telefonic</span>
+              
+           </NuxtLink>
+           </p>
+          </li>
+          
           <li>
             <NuxtLink to="mailto:alexjoita@alexjoita.com" class="flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100">
               <Icon name="heroicons:envelope-20-solid" size="1.8rem" />
-              <span>alexjoita@alexjoita.com</span>
+              <span>Trimite un email</span>
             </NuxtLink>
           </li>
           <li>
@@ -30,12 +42,7 @@
               <span>Alex Joita</span>
             </NuxtLink>
           </li>
-          <li>
-            <NuxtLink to="https://www.youtube.com/@AlexJoita88" class="flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100">
-              <Icon name="fe:youtube" size="1.8rem" />
-              <span>AlexJoita88</span>
-            </NuxtLink>
-          </li>
+          
         </ul>
       </div>
       <svg viewBox="0 0 1024 1024" class="hidden dark:block absolute top-1/2 left-1/2 h-[64rem] w-[64rem] -translate-x-1/2 pointer-events-none" aria-hidden="true">
