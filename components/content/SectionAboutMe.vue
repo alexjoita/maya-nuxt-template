@@ -18,7 +18,7 @@ defineProps({
 <template>
   <div class="not-prose mt-16 lg:mt-48 content-visibility-visible contain-intrinsic-size-[auto_750px]">
     <div class="grid grid-cols-1 lg:grid-cols-7 gap-8">
-      <div class="col-span-4 flex flex-col gap-8 order-2 lg:order-1">
+      <div class="col-span-4 flex flex-col gap-8 order-2 lg:order-1 items-center text-center">
         <h2 class="text-4xl lg:text-6xl font-display text-zinc-800 dark:text-zinc-200">
           {{ firstname }} <br />
           {{ lastname }}
@@ -26,7 +26,7 @@ defineProps({
         <div class="dark:text-zinc-400 flex flex-col gap-4">
           <slot name="description"></slot>
         </div>
-        <NuxtImg src="/img/home/sign.png" alt="signature" class="h-8 mr-auto" />
+        <NuxtImg src="/img/home/sign.png" alt="signature" class="h-8 mr-auto lg:mx-auto" />
       </div>
 
       <div v-parallax 

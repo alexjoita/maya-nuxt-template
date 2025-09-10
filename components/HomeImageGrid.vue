@@ -1,12 +1,8 @@
-<script setup lang="ts"></script>
-
 <template>
-  <div class="flex items-center justify-center gap-5 py-4 sm:gap-6 relative z-20">
-    <!-- col1 -->
-    <div class="hidden lg:flex flex-col gap-5 sm:gap-6 " v-parallax data-rellax-speed="8">
-      <div
-        class="relative aspect-[2/3] w-36 lg:w-52 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800"
-      >
+  <div class="flex flex-wrap items-start justify-center gap-4 sm:gap-6 py-4 relative z-20 max-w-full overflow-x-hidden">
+    <!-- col1: hidden on mobile, visible from lg -->
+    <div class="hidden lg:flex flex-col gap-5 sm:gap-6" v-parallax data-rellax-speed="8">
+      <div class="relative aspect-[2/3] w-36 lg:w-52 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800">
         <NuxtImg
           placeholder
           sizes="sm:100vw md:50vw lg:220px"
@@ -20,10 +16,8 @@
     </div>
 
     <!-- col2 -->
-    <div class="flex flex-col gap-5 sm:gap-6" v-parallax data-rellax-speed="5">
-      <div
-        class="relative aspect-[4/3] w-44 md:w-52 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800"
-      >
+    <div class="flex flex-col gap-5 sm:gap-6 w-1/2 xs:w-1/3 md:w-1/5" v-parallax data-rellax-speed="5">
+      <div class="relative aspect-[4/3] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800">
         <NuxtImg
           placeholder
           sizes="sm:100vw md:50vw lg:220px"
@@ -34,9 +28,7 @@
           loading="lazy"
         />
       </div>
-      <div
-        class="relative aspect-[3/4] w-44 md:w-52 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800"
-      >
+      <div class="relative aspect-[3/4] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800">
         <NuxtImg
           placeholder
           sizes="sm:100vw md:50vw lg:220px"
@@ -50,10 +42,8 @@
     </div>
 
     <!-- col3 -->
-    <div class="flex flex-col gap-5 sm:gap-6" v-parallax data-rellax-speed="0">
-      <div
-        class="relative aspect-[2/3] w-72 md:w-80 lg:w-96 flex-none overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800"
-      >
+    <div class="flex flex-col gap-5 sm:gap-6 w-1/2 xs:w-1/3 md:w-1/5" v-parallax data-rellax-speed="0">
+      <div class="relative aspect-[2/3] w-full flex-none overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800">
         <NuxtImg
           placeholder
           sizes="sm:100vw md:50vw lg:380px"
@@ -67,10 +57,8 @@
     </div>
 
     <!-- col4 -->
-    <div class="flex flex-col gap-5 sm:gap-6" v-parallax data-rellax-speed="1">
-      <div
-        class="relative aspect-[3/4] w-44 md:w-52 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800"
-      >
+    <div class="flex flex-col gap-5 sm:gap-6 w-1/2 xs:w-1/3 md:w-1/5" v-parallax data-rellax-speed="1">
+      <div class="relative aspect-[3/4] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800">
         <NuxtImg
           placeholder
           sizes="sm:100vw md:50vw lg:220px"
@@ -81,9 +69,7 @@
           loading="lazy"
         />
       </div>
-      <div
-        class="relative aspect-[4/3] w-44 md:w-52 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800"
-      >
+      <div class="relative aspect-[4/3] w-full flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800">
         <NuxtImg
           placeholder
           sizes="sm:100vw md:50vw lg:220px"
@@ -96,11 +82,9 @@
       </div>
     </div>
 
-    <!-- col5 -->
+    <!-- col5: hidden on mobile, visible from lg -->
     <div class="hidden lg:flex flex-col gap-5 sm:gap-6" v-parallax data-rellax-speed="3">
-      <div
-        class="relative aspect-[2/3] w-44 lg:w-52 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800"
-      >
+      <div class="relative aspect-[2/3] w-44 lg:w-52 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800">
         <NuxtImg
           placeholder
           sizes="sm:100vw md:50vw lg:220px"
