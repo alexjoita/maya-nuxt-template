@@ -5,7 +5,7 @@
 
 A personal photography portfolio template built with Nuxt.js and Tailwind CSS.
 
-👀 [Demo](https://maya-nuxt-template.vercel.app)
+👀 [Demo](https://photo.alexjoita.com)
 
 📖 Docs (WIP)
 
