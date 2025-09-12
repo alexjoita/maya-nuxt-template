@@ -44,15 +44,16 @@ const onScroll = () => {
         <NuxtLink 
           to="/"
         >
-          <h1 class="border border-zinc-300/50 dark:border-zinc-900/60 rounded-full pl-2 lg:pl-4 pr-2 py-2 backdrop-blur-lg bg-zinc-100/50 dark:bg-zinc-800/50">
+          <h1 class="border border-zinc-300/50 dark:border-zinc-900/60 rounded-full pl-2 lg:pl-4 pr-2 py-2 backdrop-blur-lg bg-zinc-100/50 dark:bg-zinc-800/50" 
+            style="backdrop-blur:5px; -webkit-backdrop-blur:5px;">
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-200">
               photo.alexjoita.com
             </span>
           </h1>
           </NuxtLink>
         <div
-          class="border border-zinc-300/50 dark:border-zinc-900/60 rounded-full pl-2 lg:pl-4 pr-2 py-2 backdrop-blur-lg bg-zinc-100/50 dark:bg-zinc-800/50"
-          style="backdrop-blur:5px; -webkit-backdrop-blur:5px;"
+          class="border border-zinc-300/50 dark:border-zinc-900/60 rounded-full pl-2 lg:pl-4 pr-2 py-2 backdrop-blur-md bg-zinc-100/50 dark:bg-zinc-800/50"
+          
         >
           <div class="flex items-center gap-4">
             <div class="hidden lg:block">
