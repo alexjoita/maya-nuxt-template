@@ -31,7 +31,7 @@ const props = defineProps({
         :alt="gallery.cover?.alt || gallery.title"
         :width="gallery.cover?.width"
         :height="gallery.cover?.height"
-        class="h-full w-full object-cover object-center group-hover:opacity-75"
+        class="h-full w-full object-cover object-center group-hover:scale-125 transition-transform duration-300 group-hover:opacity-95"
         sizes="sm:100vw md:50vw lg:30vw"
         loading="lazy"
         placeholder
@@ -45,7 +45,7 @@ const props = defineProps({
           <NuxtImg
             :src="thumbnail.src"
             alt="thumbnail.alt"
-            class="h-full w-full object-cover object-center"
+            class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-110"
             loading="lazy"
             sizes="sm:70px md:75px"
             placeholder
