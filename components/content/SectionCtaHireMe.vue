@@ -10,6 +10,7 @@
             <p>Sunt la un click distanţă! Fie că ai __întrebări__ despre portofoliul meu sau __doreşti să colaborăm__ într-un anumit proiect, nu ezita să mă contactezi. Promit să răspund imediat, maxim în câteva ore! Este gratis până aici! </p>
             
           </slot>
+          
         </div>
         <ul class="mt-16 flex flex-col gap-4 lg:gap-12 lg:flex-row items-center justify-center max-w-2xl mx-auto">
           
@@ -23,19 +24,21 @@
            </NuxtLink>
            </p>
           </li>
-          
+          <!-- Email address added below -->
           <li>
             <NuxtLink to="mailto:alexjoita@alexjoita.com" class="flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100">
               <Icon name="heroicons:envelope-20-solid" size="1.8rem" />
               <span>Trimite un email</span>
             </NuxtLink>
           </li>
+          <!-- Instagram added below -->
           <li>
             <NuxtLink to="https://instagram.com/alexjoita" class="flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100">
               <Icon name="fe:instagram" size="1.8rem" />
               <span>@alexjoita</span>
             </NuxtLink>
           </li>
+          <!-- Facebook added below -->
           <li>
             <NuxtLink to="https://facebook.com/alex.joita" class="flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100">
               <Icon name="fe:facebook" size="1.8rem" />
