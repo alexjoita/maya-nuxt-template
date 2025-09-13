@@ -26,7 +26,7 @@ defineProps({
         <div class="dark:text-zinc-400 flex flex-col gap-4">
           <slot name="description"></slot>
         </div>
-        <NuxtImg src="/img/home/sign.png" alt="signature" class="h-8 mr-auto lg:mx-auto" />
+        <NuxtImg src="/img/home/sign.png" alt="signature" class="h-12 mr-auto lg:mx-auto" />
       </div>
 
       <div v-parallax 
@@ -38,7 +38,7 @@ defineProps({
           <NuxtImg
             placeholder
             :src="photo?.src ? photo.src : 'img/placeholder.jpg'"
-            :alt="photo?.alt ? photo.alt : 'Oscar Mattern'"
+            :alt="photo?.alt ? photo.alt : 'Alex Joita'"
             :width="photo?.width ? photo.width : 1"
             :height="photo?.height ? photo.height : 1"
             format="webp"
